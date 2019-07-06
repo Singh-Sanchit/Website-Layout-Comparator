@@ -1,0 +1,3275 @@
+{
+  "tag": "html",
+  "attributes": {
+    "lang": "en"
+  },
+  "child": [
+    {
+      "tag": "head",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "meta",
+          "attributes": {
+            "charset": "utf-8"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "http-equiv": "x-ua-compatible",
+            "content": "ie=edge"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1, shrink-to-fit=no"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "generator",
+            "content": "Gatsby 2.4.2"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "title",
+          "attributes": {
+            "data-react-helmet": "true"
+          },
+          "content": "Ionic 4: Network Detection with Capacitor 1.0+: Developer School | Modern web development tutorials",
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "rel": "canonical",
+            "href": "https://developer.school/posts/ionic-4-network-detection-with-capacitor/"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/manifest.json",
+            "rel": "manifest"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-57x57.png",
+            "rel": "apple-touch-icon",
+            "sizes": "57x57"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-60x60.png",
+            "rel": "apple-touch-icon",
+            "sizes": "60x60"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-72x72.png",
+            "rel": "apple-touch-icon",
+            "sizes": "72x72"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-76x76.png",
+            "rel": "apple-touch-icon",
+            "sizes": "76x76"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-114x114.png",
+            "rel": "apple-touch-icon",
+            "sizes": "114x114"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-120x120.png",
+            "rel": "apple-touch-icon",
+            "sizes": "120x120"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-144x144.png",
+            "rel": "apple-touch-icon",
+            "sizes": "144x144"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-152x152.png",
+            "rel": "apple-touch-icon",
+            "sizes": "152x152"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-167x167.png",
+            "rel": "apple-touch-icon",
+            "sizes": "167x167"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-180x180.png",
+            "rel": "icon",
+            "sizes": "180x180",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "IE=edge",
+            "http-equiv": "X-UA-Compatible"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "width=device-width,initial-scale=1.0,user-scalable=yes",
+            "name": "viewport"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "apple-mobile-web-app-title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Ionic 4: Network Detection with Capacitor 1.0+: Developer School | Modern web development tutorials",
+            "property": "og:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Ionic 4: Network Detection with Capacitor 1.0+: Developer School | Modern web development tutorials",
+            "name": "twitter:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "name": "description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "property": "og:description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "name": "twitter:description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "yes",
+            "name": "apple-mobile-web-app-capable"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "black-translucent",
+            "name": "apple-mobile-web-app-status-bar-style"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "#000",
+            "name": "theme-color"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "application-name"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "website",
+            "property": "og:type"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "property": "og:site_name"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "",
+            "property": "fb:app_id"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "@paulhalliday_io",
+            "name": "twitter:site"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "@paulhalliday_io",
+            "name": "twitter:creator"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Ionic 4: Network Detection with Capacitor 1.0+: Developer School | Modern web development tutorials",
+            "name": "twitter:text:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/posts/ionic-4-network-detection-with-capacitor/",
+            "property": "og:url"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/posts/ionic-4-network-detection-with-capacitor/",
+            "name": "twitter:url"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "property": "og:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "property": "og:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "property": "og:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "name": "twitter:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "name": "twitter:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "name": "twitter:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "property": "og:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "property": "og:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "property": "og:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "#000",
+            "name": "msapplication-TileColor"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-70x70.png",
+            "name": "msapplication-square70x70"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-144x144.png",
+            "name": "msapplication-square144x144"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-150x150.png",
+            "name": "msapplication-square150x150"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-310x150.png",
+            "name": "msapplication-wide310x150"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-310x310.png",
+            "name": "msapplication-square310x310"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "sitemap",
+            "type": "application/xml",
+            "href": "/sitemap.xml"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "shortcut icon",
+            "href": "/icons/icon-48x48.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "manifest",
+            "href": "/manifest.webmanifest",
+            "crossorigin": "use-credentials"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "theme-color",
+            "content": "#6023C7"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "48x48",
+            "href": "/icons/icon-48x48.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "72x72",
+            "href": "/icons/icon-72x72.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "96x96",
+            "href": "/icons/icon-96x96.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "144x144",
+            "href": "/icons/icon-144x144.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "192x192",
+            "href": "/icons/icon-192x192.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "256x256",
+            "href": "/icons/icon-256x256.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "384x384",
+            "href": "/icons/icon-384x384.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "512x512",
+            "href": "/icons/icon-512x512.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "preconnect dns-prefetch",
+            "href": "https://www.google-analytics.com"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/styles-f9204b77e4af67c462cf.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/component---src-templates-blog-post-js-07666d6e7b45a8aa9a8e.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/2-44eca8ded65a170bbb4b.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/1-7d634722494707433712.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/app-df1f157f17fbe7897663.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/webpack-runtime-b8efa3074fa0cbf3a458.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "fetch",
+            "rel": "preload",
+            "href": "/static/d/762/path---posts-ionic-4-network-detection-with-capacitor-00-c-eda-39pHk1XrWC8VB5N8OKRQ9KBrl0.json",
+            "crossorigin": "use-credentials"
+          },
+          "content": null,
+          "child": []
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "noscript",
+          "attributes": {
+            "id": "gatsby-noscript"
+          },
+          "content": "This app works best with JavaScript enabled.",
+          "child": []
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "___gatsby"
+          },
+          "child": [
+            {
+              "tag": "div",
+              "attributes": {
+                "style": "outline:none",
+                "tabindex": "-1",
+                "role": "group"
+              },
+              "child": [
+                {
+                  "tag": "div",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": "sc-ckVGcZ dUYqWe"
+                      },
+                      "child": [
+                        {
+                          "tag": "header",
+                          "attributes": {
+                            "class": "sc-fjdhpX jhdANt"
+                          },
+                          "child": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": "sc-jzJRlG fzfIst"
+                              },
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "/"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": "sc-cSHVUG bMDrtQ"
+                                      },
+                                      "content": "Home",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "/tags"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": "sc-cSHVUG bMDrtQ"
+                                      },
+                                      "content": "Tags",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "button",
+                                  "attributes": {
+                                    "class": "sc-kAzzGY sc-chPdSV eXTSEf"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "role": "img",
+                                        "aria-label": "Dark mode"
+                                      },
+                                      "content": "🌙",
+                                      "child": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": "sc-iwsKbI gLflTI"
+                          },
+                          "child": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": "sc-bZQynM jRBlBH"
+                              },
+                              "child": [
+                                {
+                                  "tag": "h1",
+                                  "attributes": {
+                                    "class": "sc-htoDjs bqYFgS"
+                                  },
+                                  "content": "Ionic 4: Network Detection with Capacitor 1.0+",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {
+                                    "class": "sc-dnqmqq isRFTF"
+                                  },
+                                  "content": "Understanding more about the Network can allow you to make a better user experience within your Ionic applications.",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "svg",
+                                  "attributes": {
+                                    "class": "sc-gZMcBi lojgMm",
+                                    "width": "100%",
+                                    "height": "172"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "path",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "animate",
+                                          "attributes": {
+                                            "repeatCount": "indefinite",
+                                            "attributeName": "d",
+                                            "dur": "10s",
+                                            "values": "M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;"
+                                          },
+                                          "content": null,
+                                          "child": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "sc-bdVaJa cFxwkW"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "https://github.com/developer-school/ionic-4-network-detection",
+                                        "target": "_blank",
+                                        "rel": "noopener noreferrer"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "button",
+                                          "attributes": {
+                                            "class": "sc-htpNat bVOWCV"
+                                          },
+                                          "content": "Get the code",
+                                          "child": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": "sc-kkGfuU gxvNYc"
+                          },
+                          "child": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "style": "margin-bottom:20px"
+                              },
+                              "child": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "id": "code-fund-script-slot"
+                                  },
+                                  "content": null,
+                                  "child": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "id": "codefund"
+                                  },
+                                  "content": null,
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": "blog-post-content"
+                              },
+                              "child": [
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "em",
+                                      "attributes": {},
+                                      "content": "lie-fi",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "iframe",
+                                  "attributes": {
+                                    "width": "100%",
+                                    "height": "515",
+                                    "src": "https://www.youtube.com/embed/LdSeK5sIVVI",
+                                    "frameborder": "0",
+                                    "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                                    "allowfullscreen": ""
+                                  },
+                                  "content": null,
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "I bet your users have, and part of making smart mobile applications is about contextually knowing when the user is online or offline – this is where network detection within Ionic 4 using Capacitor comes in handy.",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "The application that we create will simply display a toast when the user goes online/offline. We’ll also be looking at RxJS and subscribing/unsubscribing to data streams.",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {},
+                                  "content": "Project Setup",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "Let's start off by making a new project and adding the Cordova/Ionic Native plugin(s):",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "gatsby-highlight",
+                                    "data-language": "bash"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "pre",
+                                      "attributes": {
+                                        "class": "language-bash"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-bash"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token comment"
+                                              },
+                                              "content": "# Create a new project",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token comment"
+                                              },
+                                              "content": "# Initialise capacitor",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "enable",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token comment"
+                                              },
+                                              "content": "# Serve project",
+                                              "child": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {},
+                                  "content": "Android users",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "code",
+                                      "attributes": {
+                                        "class": "language-text"
+                                      },
+                                      "content": "AndroidManifest.xml",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "gatsby-highlight",
+                                    "data-language": "xml"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "pre",
+                                      "attributes": {
+                                        "class": "language-xml"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-xml"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-name"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token namespace"
+                                                      },
+                                                      "content": "android:",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-value"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "=",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": "/>",
+                                                  "child": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "Our demo will be Web based, but every other platform should work out of the box.",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {},
+                                  "content": "Network Detection",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "code",
+                                      "attributes": {
+                                        "class": "language-text"
+                                      },
+                                      "content": "HomePage",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "code",
+                                      "attributes": {
+                                        "class": "language-text"
+                                      },
+                                      "content": "Network",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "gatsby-highlight",
+                                    "data-language": "javascript"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "pre",
+                                      "attributes": {
+                                        "class": "language-javascript"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-javascript"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "import",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "from",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'@angular/core'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "import",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "from",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'@capacitor/core'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "const",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token operator"
+                                              },
+                                              "content": "=",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "Component",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ":",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'app-home'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ":",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'home.page.html'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ":",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "[",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'home.page.scss'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "]",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "export",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "class",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token class-name"
+                                              },
+                                              "content": "HomePage",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "implements",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token class-name"
+                                              },
+                                              "content": "OnInit",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ":",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ":",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "async",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "ngOnInit",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "this",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token operator"
+                                              },
+                                              "content": "=",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "addListener",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "'networkStatusChange'",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token parameter"
+                                              },
+                                              "content": "status",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token operator"
+                                              },
+                                              "content": "=>",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "log",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token string"
+                                              },
+                                              "content": "\"Network status changed\"",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ",",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "this",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token operator"
+                                              },
+                                              "content": "=",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "this",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token operator"
+                                              },
+                                              "content": "=",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "await",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "getStatus",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "ngOnDestroy",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "{",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token keyword"
+                                              },
+                                              "content": "this",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ".",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token function"
+                                              },
+                                              "content": "remove",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "(",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ")",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": ";",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token punctuation"
+                                              },
+                                              "content": "}",
+                                              "child": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "Let's understand what's going on here:",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "ol",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "li",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": "Network",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": "Plugins",
+                                          "child": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": "Network.addListener",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": "networkStatusChange",
+                                          "child": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "em",
+                                          "attributes": {},
+                                          "content": "hasnt",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": "Network.getStatus()",
+                                          "child": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-text"
+                                          },
+                                          "content": ".remove()",
+                                          "child": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "Using the listener, we can then display this information in the console any time the network changes. The result looks something like this:",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": "gatsby-resp-image-link",
+                                        "href": "/static/3e1f5c9d7a38231f991955986b7c4359/2cf95/online-offline.png",
+                                        "style": "display: block",
+                                        "target": "_blank",
+                                        "rel": "noopener"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": "gatsby-resp-image-wrapper",
+                                            "style": "position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "gatsby-resp-image-background-image",
+                                                "style": "padding-bottom: 119.64956195244056%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAD9ElEQVQ4y52UW28bRRTHUy4fAPEEAtZ20rRxQpKqbZpSFdo0DykPUJAQL1RK85LyAahUCfGC+sonQPAJ4kgIFSFBG6TwklAuNY7vl117vRd77bXXt/Wu98+ZcRwbYirKSH+d3Tk7vz2XmZmYoDFzcu6F6eCc3zd5SnjplYDw8mvTwtTpBWHq1AK3QmCGFBQCJ+cEPykwIt9kUHjVH/T7pmZfnBiMpenJr86f9WP27Dnr0ptX2ssXl9vzi4tcC2fOtGeCM+2A39/2CULb5/ORhCP5fb7G1GQAgiBsHwEXl65sL6/cwIWVG94bq+/jresf4tLqe7i48g7OXb6OhQvXML+0gtfH6PzlNW/17Q/If3WHUM9z4Ozt8NbaF8DVz9vd1Xsd79o921u8a3vBT5g63izZ2TvdsZq7YzvznwGnP049OAJ++U0stCcDP0Tg/HjALb4PA9897tv7vwPf/uaN1689dycFfH0/OwRG/tgLdSwdudSfjpyLQZESyGciqKgZpKOP4NlV9Ic3Rj2XeUpK9uERcP+XR6FGsw1RKjhyUUVOlFDQapANB6LWhtlw0aO1juvB6f1DrseB6cwIMBqNhthkr9dzPM+D1+vB7QFdty/2zKIhF7j/7+LAXC43BMZiMQ4kp4PB8IZpjYEciYLgwGx2JMJ4PB46xAyB/31woCiKIzXc3+fAUqnkWJYFwzCgKAp0XQd7Z7ZQyMM0q6jVamg1G7CqeXo2mZ8Dw+HwELi7uxtiCyVJchisWCyyFJDPS1D0KsKJAvYfpxDPKlC0EnTDhFpMQlNVlMtlt9lsYm9vbwj8mYDVagWqqjiyXECr1eyLImlYddTrNVQqBpKJODSjhoOsRt23kEwRVNddg3w7Ow+HwEgkwlNutVpOH9REk6uDTsdGu92i5wZsu4NMJoNYIoV0MomimIWYSrqscbncSFMSiQQHVgzDMU0TTI1GA7W6C7Pe5dGyUlSrVZSonpquwa7X0RRFWJlMvymSdBwoFxWnRh9aVgNGpcKhpXKZZLDtwVtaoXlqHm9UlX6sl0p94Og+TCb7wJwoOpKUp47KyBcKkOQakmmdaqtC0zQeITWOapeCSrvATKdRjMeOb5tBhFK+4GiaTp2jTisqRVknsIqCXGT1RbfbpZ8VWHpQyJZpNxQl6XjKgwgpOkchEItIVTVopRZkhdKimrEUWboDYI3ezWQClVj0ODByENvix8TpOv9ypTxJ/HRlM5nh9RWNxbcOj1H3qYGH559q+GB0H26zSdu2n3gRjBOrKxupVOqnAfCZj27eXNvc3Pz01q1bdzc2Np5KbA1bu76+/i6xnpsgOIOeID3LJ/r2/+gE3QETfwFM3Fb//ZE8+wAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+                                              },
+                                              "content": null,
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "img",
+                                              "attributes": {
+                                                "class": "gatsby-resp-image-image",
+                                                "style": "width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;",
+                                                "alt": "Online/Offline",
+                                                "title": "",
+                                                "src": "https://d33wubrfki0l68.cloudfront.net/29ec5fb7746009861fa9e0647335674619454662/2d4af/static/3e1f5c9d7a38231f991955986b7c4359/a8200/online-offline.png",
+                                                "srcset": "https://d33wubrfki0l68.cloudfront.net/a04669cfe2f38dc6b76265fb80a45031c6e569f1/67fac/static/3e1f5c9d7a38231f991955986b7c4359/52d5c/online-offline.png 175w,\nhttps://d33wubrfki0l68.cloudfront.net/230f902e040fc9883440d24c5b48a3a5d8675ae1/fbbc5/static/3e1f5c9d7a38231f991955986b7c4359/1bae2/online-offline.png 350w,\nhttps://d33wubrfki0l68.cloudfront.net/29ec5fb7746009861fa9e0647335674619454662/2d4af/static/3e1f5c9d7a38231f991955986b7c4359/a8200/online-offline.png 700w,\nhttps://d33wubrfki0l68.cloudfront.net/67ed36e86c43f5b9d246a51f7bc068d46d9da061/a5287/static/3e1f5c9d7a38231f991955986b7c4359/0ab52/online-offline.png 1050w,\nhttps://d33wubrfki0l68.cloudfront.net/34a7874501ca0c4eaac0c24a8034f2e4cd7ba9ac/08ca0/static/3e1f5c9d7a38231f991955986b7c4359/fa92b/online-offline.png 1400w,\nhttps://d33wubrfki0l68.cloudfront.net/d03b434ef9ed26084a3becae93f6aad07fb3b9d8/2261b/static/3e1f5c9d7a38231f991955986b7c4359/2cf95/online-offline.png 1598w",
+                                                "sizes": "(max-width: 700px) 100vw, 700px"
+                                              },
+                                              "content": null,
+                                              "child": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "h3",
+                                  "attributes": {},
+                                  "content": "Changing the Toolbar Colour",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "code",
+                                      "attributes": {
+                                        "class": "language-text"
+                                      },
+                                      "content": "color",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "gatsby-highlight",
+                                    "data-language": "html"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "pre",
+                                      "attributes": {
+                                        "class": "language-html"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-html"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-name"
+                                                  },
+                                                  "content": "[color]",
+                                                  "child": []
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-value"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "=",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "We can also display information about the connection status in the template if we wanted to:",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "gatsby-highlight",
+                                    "data-language": "html"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "pre",
+                                      "attributes": {
+                                        "class": "language-html"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "code",
+                                          "attributes": {
+                                            "class": "language-html"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-name"
+                                                  },
+                                                  "content": "[color]",
+                                                  "child": []
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-value"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "=",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-name"
+                                                  },
+                                                  "content": "class",
+                                                  "child": []
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-value"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "=",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "<",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-name"
+                                                  },
+                                                  "content": "href",
+                                                  "child": []
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token attr-value"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "=",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    },
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "\"",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "token tag"
+                                              },
+                                              "child": [
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token tag"
+                                                  },
+                                                  "child": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attributes": {
+                                                        "class": "token punctuation"
+                                                      },
+                                                      "content": "</",
+                                                      "child": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "attributes": {
+                                                    "class": "token punctuation"
+                                                  },
+                                                  "content": ">",
+                                                  "child": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "Here's what this looks like:",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": "gatsby-resp-image-link",
+                                        "href": "/static/774b8e6b45c738b075df3732290c1e08/90983/status.png",
+                                        "style": "display: block",
+                                        "target": "_blank",
+                                        "rel": "noopener"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": "gatsby-resp-image-wrapper",
+                                            "style": "position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;"
+                                          },
+                                          "child": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": "gatsby-resp-image-background-image",
+                                                "style": "padding-bottom: 54.38282647584973%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACXUlEQVQoz2WQ60uTcRTHn38j0ECyvG9tOXMVYmUZky6UQRdflbcXWVpCLzSMpFpqpWAXQpxW5IvoRUIEQWYRZVBNUTNvXba5axOG4mp7nn367dnM1ANfzu85v8/5nvP8JE3HAPrqejKrr6A7e43MU5fIOt2o5pSKC2w4cZ6U2jb013vRnWlAe+6m4FoEY0Zb3URW1VVSKwV7sp6MhgdI2XWP0Wlz0RsKMG41scmwE40un9T0XNatz0aTbiAz/wiawzVkJSWg127EoNWgTUsjPTmZ5MREkhISyVi7hqzC40g7zKMcbQ9RckdRdaA1gqlFYU9TiELzb0zNMrvMAYwlFzEV7cW0vxjTvkNsyStg87btZBvzhPLJycnFeLAKqebuGA6nF9uMD7vzFw6Xnx92N77ZeRZCEAE+jPpo6n6P1+3gp82OzWbDbrcxOTGO3+9nfn4BJRyk9803pLq2MdxOO06nA9eMyG4fDk+AwFyQmB2MjHto7/rIrN8jOBculwunNyC4OYJ/ZBaj750T6XLzOOFwiIjoVRQFRWQ5eo5mJWY4POKho3NQPcuyonIiqYzKRT9E9L+eQbrROCGAMEsR+Sclbvhl2Mv9e0Ox23htGSfHam/7xIa366fEhFAMEWv+r0XDr4Neem7FDKPNKzk5bjjwQhhaaqfF+uGVQ1VFYn/CpNXHk9bh+IarOSX+jJ+eu5B6qqYJERR1GYXwMsnEBk19dvO0ZUjtllcwUYUjYfXO+ky84aPd37GU99NZ3kdn2WpZKl7SfWwAS5GV7spXWEpFrSyu0iV1Ce5hsZW/qNzBzo8CNqIAAAAASUVORK5CYII='); background-size: cover; display: block;"
+                                              },
+                                              "content": null,
+                                              "child": []
+                                            },
+                                            {
+                                              "tag": "img",
+                                              "attributes": {
+                                                "class": "gatsby-resp-image-image",
+                                                "style": "width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;",
+                                                "alt": "Online/Offline modes",
+                                                "title": "",
+                                                "src": "https://d33wubrfki0l68.cloudfront.net/2b72d98425b71b0468d4802d255b365b2d8351c5/56993/static/774b8e6b45c738b075df3732290c1e08/a8200/status.png",
+                                                "srcset": "https://d33wubrfki0l68.cloudfront.net/d80e38d95084fa5ec52d6235878672b0592b9fd7/3c724/static/774b8e6b45c738b075df3732290c1e08/52d5c/status.png 175w,\nhttps://d33wubrfki0l68.cloudfront.net/2c07d18923336ec6d8cc005c6495baf0005dd851/27816/static/774b8e6b45c738b075df3732290c1e08/1bae2/status.png 350w,\nhttps://d33wubrfki0l68.cloudfront.net/2b72d98425b71b0468d4802d255b365b2d8351c5/56993/static/774b8e6b45c738b075df3732290c1e08/a8200/status.png 700w,\nhttps://d33wubrfki0l68.cloudfront.net/279cc9331b29b143f29bb34568583e81913ead57/d5b9d/static/774b8e6b45c738b075df3732290c1e08/0ab52/status.png 1050w,\nhttps://d33wubrfki0l68.cloudfront.net/8a2d57c66a698d1d14acf53cd6c2033ef29c235d/93eb2/static/774b8e6b45c738b075df3732290c1e08/fa92b/status.png 1400w,\nhttps://d33wubrfki0l68.cloudfront.net/328ade063a05add88647c5b47fe697538da66d20/2e41a/static/774b8e6b45c738b075df3732290c1e08/44231/status.png 2100w,\nhttps://d33wubrfki0l68.cloudfront.net/5308bea44dc773c01201ec59e9e2249dd913c89c/4a3f1/static/774b8e6b45c738b075df3732290c1e08/90983/status.png 2236w",
+                                                "sizes": "(max-width: 700px) 100vw, 700px"
+                                              },
+                                              "content": null,
+                                              "child": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {},
+                                  "content": "Conclusion",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "p",
+                                  "attributes": {},
+                                  "content": "That's how we can get information about the current Network connection with Ionic 4 and Capacitor. This works across iOS, Android, Web and Electron and is all thanks to Capacitor!",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "h3",
+                                  "attributes": {
+                                    "class": "sc-eNQAEJ hoEBqV"
+                                  },
+                                  "content": "----------",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": "sc-hMqMXs bbAQwK"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "h3",
+                                      "attributes": {
+                                        "class": "sc-kEYyzF dGJuRl"
+                                      },
+                                      "content": "Paul Halliday",
+                                      "child": []
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "attributes": {},
+                                      "content": "Paul Halliday is an author with a passion for cross platform mobile development. He's a recognised Ionic Community Leader and has created courses, books, and a vast amount of content based around the Ionic ecosystem.",
+                                      "child": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "footer",
+                          "attributes": {
+                            "class": "sc-kGXeez hMxXPX"
+                          },
+                          "child": [
+                            {
+                              "tag": "ul",
+                              "attributes": {
+                                "class": "sc-dxgOiQ hBUsJT"
+                              },
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/sponsorship"
+                                      },
+                                      "content": "Sponsorship |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "https://youtube.com/c/PaulHalliday"
+                                      },
+                                      "content": "YouTube |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "https://twitter.com/paulhalliday_io"
+                                      },
+                                      "content": "Twitter |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/tags"
+                                      },
+                                      "content": "Tags |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/privacy"
+                                      },
+                                      "content": "Privacy and Terms",
+                                      "child": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "role": "img",
+                                    "aria-label": "heart"
+                                  },
+                                  "content": "💜",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://youtube.com/c/PaulHalliday"
+                                  },
+                                  "content": "Paul Halliday",
+                                  "child": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

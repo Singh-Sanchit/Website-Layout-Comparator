@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='img/apple-icon.png') }}" />
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    LEDI By VCET Students
+  </title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/material-dashboard.css') }}" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="purple" data-background-color="white"
+      data-image="{{ url_for('static', filename='img/sidebar-1.jpg') }}">
+      <div class="logo">
+        <a href="#" class="simple-text logo-normal">
+          LEDI Tool
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item active ">
+            <a class="nav-link" href="/">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="#">Dashboard</a>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Website URL: {{ url }}</h4>
+                  <p class="card-category">Level: {{ level }}</p>
+                  <p class="card-category">
+                    Max Number Of Pages: {{ maxpages }}
+                  </p>
+                </div>
+                <div class="card-body">
+                  <h2>Tree comparision for : {{pageName}}</h2>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <meta id="my-data" data-name="{{data}}">
+
+
+
+                        <ul id="leftTree">
+                          <!--left tree-->
+
+                        </ul>
+
+
+                      </div>
+                      <div class="col-xs-6">
+
+
+                        <ul id="rightTree" style="margin-left: 90px">
+                          <!--rigth tree-->
+
+                        </ul>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-left">
+            <ul>
+              <li>
+                <a href="#">
+                  Sanchitsagar Singh
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Tarun Parmar
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Akash Rajpurohit
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Raj Kotadia
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright float-right">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());</script>, made with <i class="material-icons">favorite</i> by
+            <a href="http://www.vcet.edu.in/" target="_blank">VCET Students</a>
+            for a better web.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}" type="text/javascript"></script>
+  <script src="{{ url_for('static', filename='js/popper.min.js') }}" type="text/javascript"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
+  <script src="{{ url_for('static', filename='js/perfect-scrollbar.jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/material-dashboard.min.js') }}" type="text/javascript"></script>
+
+  <script>
+
+    givenLevel = '{{level}}'
+    // const givenLevel = 7;
+    let twoListData = $('#my-data').data().name
+
+    pythonListToHtmlList(document.getElementById("leftTree"), twoListData[0]);
+    pythonListToHtmlList(document.getElementById("rightTree"), twoListData[1]);
+
+    // obj=[
+    //     1,9,3,7,8,9,4,
+    //     1,2,4,4,4,4,4,
+    //     1,2,3,5,6,7,4,
+    //     ]
+     
+    // pythonListToHtmlList(document.getElementById("leftTree"),obj)
+
+    function makeIndent(level) {  //provides indent to our list according to level
+      return "style='margin-left:" + level * 40 + "px;border: solid black; border-radius: 3px; border-width: 0px 0px 0px 1px ;margin-top:2px; padding:2px 10px; list-style:none'";
+    }
+
+    function pythonListToHtmlList(area, arr) {   //display list passed from python in html page
+      var lev = 0;
+      temp = []
+      for (var i = 0; i < arr.length; i++) {
+
+        if (temp.includes(arr[i])) {
+          if (lev == givenLevel) {
+            lev = 0;
+            while (temp.includes(arr[i])) {
+              i += 1;
+              lev += 1;
+              temp.pop()
+            }
+            i -= 1
+            continue;
+          } else {
+            area.innerHTML += "<li " + makeIndent(lev) + "class= ele" + area.id + ">" + arr[i] + "</li>";
+            lev += 1;
+            continue;
+          }
+        } else {
+          area.innerHTML += "<li " + makeIndent(lev) + " class= ele" + area.id + ">" + arr[i] + "</li>";
+          lev += 1;
+          temp.push(arr[i])
+        }
+      }
+    }
+
+    giveColour()
+    function giveColour() {
+
+      var leftArray = document.getElementById("leftTree").getElementsByTagName("li");
+      var rightArray = document.getElementById("rightTree").getElementsByTagName("li");
+
+      // console.log(leftUl.getElementsByTagName("li").length);
+
+      for (let i = 0; i < leftArray.length; i++) {
+        const element1 = leftArray[i];
+        for (let j = 0; j < rightArray.length; j++) {
+          const element2 = rightArray[j];
+          if (element1.innerHTML == element2.innerHTML && element1.style["margin-left"] == element2.style["margin-left"]) {
+            element1.style.color = "red"
+            element2.style.color = "red"
+          }
+        }
+      }
+    }
+
+  </script>
+</body>
+
+</html>

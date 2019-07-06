@@ -1,0 +1,10 @@
+[
+  { "parent": ["body", "nav", "ul", "li"], "child": "a" },
+  { "parent": ["body", "nav", "ul", "li"], "child": "a" },
+  { "parent": ["body", "nav", "ul", "li"], "child": "a" },
+  { "parent": ["body", "nav", "ul", "li"], "child": "a" },
+  { "parent": ["body", "section", "div", "div"], "child": "h1" },
+  { "parent": ["body", "section", "div", "div"], "child": "h3" },
+  { "parent": ["body", "section", "div", "div"], "child": "p" }
+]
+// Data format for each page at mentioned level

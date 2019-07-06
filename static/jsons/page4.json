@@ -1,0 +1,192 @@
+{
+  "tag": "html",
+  "attributes": {
+    "lang": "en"
+  },
+  "child": [
+    {
+      "tag": "head",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "meta",
+          "attributes": {
+            "charset": "UTF-8"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "title",
+          "attributes": {},
+          "content": "Page 4",
+          "child": []
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "attributes": {
+        "class": "body-color"
+      },
+      "child": [
+        {
+          "tag": "nav",
+          "attributes": {},
+          "child": [
+            {
+              "tag": "ul",
+              "attributes": {},
+              "child": [
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page1.html"
+                      },
+                      "content": "Page 1",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page2.html"
+                      },
+                      "content": "Page 2",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page3.html"
+                      },
+                      "content": "Page 3",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page4.html"
+                      },
+                      "content": "Page 4",
+                      "child": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "container"
+          },
+          "child": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": "card"
+              },
+              "child": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-title"
+                  },
+                  "content": "\n          Title 3\n        ",
+                  "child": []
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-body"
+                  },
+                  "content": "\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt\n          vitae deserunt consequuntur suscipit quo ullam, nam, optio veniam\n          nesciunt esse dicta, reprehenderit obcaecati numquam itaque? Veniam\n          magni consequatur veritatis! Saepe?\n        ",
+                  "child": []
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-footer"
+                  },
+                  "child": [
+                    {
+                      "tag": "button",
+                      "attributes": {
+                        "class": "primary"
+                      },
+                      "content": "Read More",
+                      "child": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": "card"
+              },
+              "child": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-title"
+                  },
+                  "content": "\n          Title 4\n        ",
+                  "child": []
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-body"
+                  },
+                  "content": "\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt\n          vitae deserunt consequuntur suscipit quo ullam, nam, optio veniam\n          nesciunt esse dicta, reprehenderit obcaecati numquam itaque? Veniam\n          magni consequatur veritatis! Saepe?\n        ",
+                  "child": []
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "card-footer"
+                  },
+                  "child": [
+                    {
+                      "tag": "button",
+                      "attributes": {
+                        "class": "primary"
+                      },
+                      "content": "Read More",
+                      "child": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

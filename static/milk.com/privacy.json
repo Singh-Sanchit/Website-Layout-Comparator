@@ -1,0 +1,1943 @@
+{
+  "tag": "html",
+  "attributes": {
+    "lang": "en"
+  },
+  "child": [
+    {
+      "tag": "head",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "meta",
+          "attributes": {
+            "charset": "utf-8"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "http-equiv": "x-ua-compatible",
+            "content": "ie=edge"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1, shrink-to-fit=no"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "generator",
+            "content": "Gatsby 2.4.2"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "title",
+          "attributes": {
+            "data-react-helmet": "true"
+          },
+          "content": "Developer School | Modern web development tutorials",
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "rel": "canonical",
+            "href": "https://developer.school/privacy/"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/manifest.json",
+            "rel": "manifest"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-57x57.png",
+            "rel": "apple-touch-icon",
+            "sizes": "57x57"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-60x60.png",
+            "rel": "apple-touch-icon",
+            "sizes": "60x60"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-72x72.png",
+            "rel": "apple-touch-icon",
+            "sizes": "72x72"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-76x76.png",
+            "rel": "apple-touch-icon",
+            "sizes": "76x76"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-114x114.png",
+            "rel": "apple-touch-icon",
+            "sizes": "114x114"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-120x120.png",
+            "rel": "apple-touch-icon",
+            "sizes": "120x120"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-144x144.png",
+            "rel": "apple-touch-icon",
+            "sizes": "144x144"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-152x152.png",
+            "rel": "apple-touch-icon",
+            "sizes": "152x152"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-167x167.png",
+            "rel": "apple-touch-icon",
+            "sizes": "167x167"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/apple-touch-icon-180x180.png",
+            "rel": "icon",
+            "sizes": "180x180",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/favicon-32x32.png",
+            "rel": "icon",
+            "sizes": "32x32",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "data-react-helmet": "true",
+            "href": "/icons/favicon-16x16.png",
+            "rel": "icon",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "IE=edge",
+            "http-equiv": "X-UA-Compatible"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "width=device-width,initial-scale=1.0,user-scalable=yes",
+            "name": "viewport"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "apple-mobile-web-app-title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "property": "og:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "twitter:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "name": "description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "property": "og:description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Supercharge your mobile development career with exclusive structured tutorials and courses.",
+            "name": "twitter:description"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "yes",
+            "name": "apple-mobile-web-app-capable"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "black-translucent",
+            "name": "apple-mobile-web-app-status-bar-style"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "#000",
+            "name": "theme-color"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "application-name"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "website",
+            "property": "og:type"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "property": "og:site_name"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "",
+            "property": "fb:app_id"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "summary_large_image",
+            "name": "twitter:card"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "@paulhalliday_io",
+            "name": "twitter:site"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "@paulhalliday_io",
+            "name": "twitter:creator"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "Developer School | Modern web development tutorials",
+            "name": "twitter:text:title"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/privacy/",
+            "property": "og:url"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/privacy/",
+            "name": "twitter:url"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "property": "og:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "property": "og:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "property": "og:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "name": "twitter:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "name": "twitter:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "name": "twitter:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "https://developer.school/social.png",
+            "property": "og:image"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "1024",
+            "property": "og:image:width"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "512",
+            "property": "og:image:height"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "#000",
+            "name": "msapplication-TileColor"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-70x70.png",
+            "name": "msapplication-square70x70"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-144x144.png",
+            "name": "msapplication-square144x144"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-150x150.png",
+            "name": "msapplication-square150x150"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-310x150.png",
+            "name": "msapplication-wide310x150"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "data-react-helmet": "true",
+            "content": "/icons/mstile-310x310.png",
+            "name": "msapplication-square310x310"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "sitemap",
+            "type": "application/xml",
+            "href": "/sitemap.xml"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "shortcut icon",
+            "href": "/icons/icon-48x48.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "manifest",
+            "href": "/manifest.webmanifest",
+            "crossorigin": "use-credentials"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "meta",
+          "attributes": {
+            "name": "theme-color",
+            "content": "#6023C7"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "48x48",
+            "href": "/icons/icon-48x48.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "72x72",
+            "href": "/icons/icon-72x72.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "96x96",
+            "href": "/icons/icon-96x96.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "144x144",
+            "href": "/icons/icon-144x144.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "192x192",
+            "href": "/icons/icon-192x192.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "256x256",
+            "href": "/icons/icon-256x256.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "384x384",
+            "href": "/icons/icon-384x384.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "apple-touch-icon",
+            "sizes": "512x512",
+            "href": "/icons/icon-512x512.png?v=ce01b0d16f578e5af90ed13fc75f9e44"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "rel": "preconnect dns-prefetch",
+            "href": "https://www.google-analytics.com"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/styles-f9204b77e4af67c462cf.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/component---src-pages-privacy-js-49b34a21f6c971c39275.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/2-44eca8ded65a170bbb4b.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/1-7d634722494707433712.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/app-df1f157f17fbe7897663.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "script",
+            "rel": "preload",
+            "href": "/webpack-runtime-b8efa3074fa0cbf3a458.js"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "link",
+          "attributes": {
+            "as": "fetch",
+            "rel": "preload",
+            "href": "/static/d/603/path---privacy-06-e-82f-0SUcWyAf8ecbYDsMhQkEfPzV8.json",
+            "crossorigin": "use-credentials"
+          },
+          "content": null,
+          "child": []
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "noscript",
+          "attributes": {
+            "id": "gatsby-noscript"
+          },
+          "content": "This app works best with JavaScript enabled.",
+          "child": []
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "___gatsby"
+          },
+          "child": [
+            {
+              "tag": "div",
+              "attributes": {
+                "style": "outline:none",
+                "tabindex": "-1",
+                "role": "group"
+              },
+              "child": [
+                {
+                  "tag": "div",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": "sc-ckVGcZ dUYqWe"
+                      },
+                      "child": [
+                        {
+                          "tag": "header",
+                          "attributes": {
+                            "class": "sc-fjdhpX jhdANt"
+                          },
+                          "child": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": "sc-jzJRlG fzfIst"
+                              },
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "/"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": "sc-cSHVUG bMDrtQ"
+                                      },
+                                      "content": "Home",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "/tags"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": "sc-cSHVUG bMDrtQ"
+                                      },
+                                      "content": "Tags",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "button",
+                                  "attributes": {
+                                    "class": "sc-kAzzGY sc-chPdSV eXTSEf"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "role": "img",
+                                        "aria-label": "Dark mode"
+                                      },
+                                      "content": "🌙",
+                                      "child": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": "sc-iwsKbI gLflTI"
+                          },
+                          "child": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": "sc-bZQynM jRBlBH"
+                              },
+                              "child": [
+                                {
+                                  "tag": "h1",
+                                  "attributes": {
+                                    "class": "sc-htoDjs bqYFgS"
+                                  },
+                                  "content": "Terms",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "svg",
+                                  "attributes": {
+                                    "class": "sc-gZMcBi lojgMm",
+                                    "width": "100%",
+                                    "height": "172"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "path",
+                                      "attributes": {},
+                                      "child": [
+                                        {
+                                          "tag": "animate",
+                                          "attributes": {
+                                            "repeatCount": "indefinite",
+                                            "attributeName": "d",
+                                            "dur": "10s",
+                                            "values": "M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;"
+                                          },
+                                          "content": null,
+                                          "child": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": "sc-cMljjf giQXRO"
+                          },
+                          "child": [
+                            {
+                              "tag": "h2",
+                              "attributes": {},
+                              "content": "Privacy Policy",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://developer.school"
+                                  },
+                                  "content": "https://developer.school",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "1. Information we collect",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Log data",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "When you visit our website, our servers may automatically log the standard data provided by your web browser. It may include your computer’s Internet Protocol (IP) address, your browser type and version, the pages you visit, the time and date of your visit, the time spent on each page, and other details.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Device data",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We may also collect data about the device you’re using to access our website. This data may include the device type, operating system, unique device identifiers, device settings, and geo-location data. What we collect can depend on the individual settings of your device and software. We recommend checking the policies of your device manufacturer or software provider to learn what information they make available to us.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Personal information",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We may ask for personal information, such as your:",
+                              "child": []
+                            },
+                            {
+                              "tag": "ul",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Name",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Email",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Social media profiles",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Date of birth",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Phone/mobile number",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Home/Mailing address",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Work address",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Payment information",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "2. Legal bases for processing",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We will process your personal information lawfully, fairly and in a transparent manner. We collect and process information about you only where we have legal bases for doing so.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "These legal bases depend on the services you use and how you use them, meaning we collect and use your information only where:",
+                              "child": []
+                            },
+                            {
+                              "tag": "ul",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "it’s necessary for the performance of a contract to which you are a party or to take steps at your request before entering into such a contract (for example, when we provide a service you request from us);",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "it satisfies a legitimate interest (which is not overridden by your data protection interests), such as for research and development, to market and promote our services, and to protect our legal rights and interests;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "you give us consent to do so for a specific purpose (for example, you might consent to us sending you our newsletter); or",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "we need to process your data to comply with a legal obligation.",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Where you consent to our use of information about you for a specific purpose, you have the right to change your mind at any time (but this will not affect any processing that has already taken place).",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We don’t keep personal information for longer than is necessary. While we retain this information, we will protect it within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification. That said, we advise that no method of electronic transmission or storage is 100% secure and cannot guarantee absolute data security. If necessary, we may retain your personal information for our compliance with a legal obligation or in order to protect your vital interests or the vital interests of another natural person.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "3. Collection and use of information",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We may collect, hold, use and disclose information for the following purposes and personal information will not be further processed in a manner that is incompatible with these purposes:",
+                              "child": []
+                            },
+                            {
+                              "tag": "ul",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to enable you to customise or personalise your experience of our website;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to enable you to access and use our website, associated applications and associated social media platforms;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to contact and communicate with you;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "for internal record keeping and administrative purposes;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "for analytics, market research and business development, including to operate and improve our website, associated applications and associated social media platforms;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to run competitions and/or offer additional benefits to you;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "for advertising and marketing, including to send you promotional information about our products and services and information about third parties that we consider may be of interest to you;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to comply with our legal obligations and resolve any disputes that we may have; and",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "to consider your employment application.",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "4. Disclosure of personal information to third parties",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We may disclose personal information to:",
+                              "child": []
+                            },
+                            {
+                              "tag": "ul",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "third party service providers for the purpose of enabling them to provide their services, including (without limitation) IT service providers, data storage, hosting and server providers, ad networks, analytics, error loggers, debt collectors, maintenance or problem-solving providers, marketing or advertising providers, professional advisors and payment systems operators;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "our employees, contractors and/or related entities;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "sponsors or promoters of any competition we run;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "credit reporting agencies, courts, tribunals and regulatory authorities, in the event you fail to pay for goods or services we have provided to you;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "courts, tribunals, regulatory authorities and law enforcement officers, as required by law, in connection with any actual or prospective legal proceedings, or in order to establish, exercise or defend our legal rights;",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "third parties, including agents or sub-contractors, who assist us in providing information, products, services or direct marketing to you; and",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "third parties to collect and process data.",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "5. International transfers of personal information",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "The personal information we collect is stored and processed in United Kingdom, or where we or our partners, affiliates and third-party providers maintain facilities. By providing us with your personal information, you consent to the disclosure to these overseas third parties.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We will ensure that any transfer of personal information from countries in the European Economic Area (EEA) to countries outside the EEA will be protected by appropriate safeguards, for example by using standard data protection clauses approved by the European Commission, or the use of binding corporate rules or other legally accepted means.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Where we transfer personal information from a non-EEA country to another country, you acknowledge that third parties in other jurisdictions may not be subject to similar data protection laws to the ones in our jurisdiction. There are risks if any such third party engages in any act or practice that would contravene the data privacy laws in our jurisdiction and this might mean that you will not be able to seek redress under our jurisdiction’s privacy laws.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "6. Your rights and controlling your personal information",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Choice and consent:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Information from third parties:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Restrict:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Access and data portability:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Correction:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Notification of data breaches:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Complaints:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "Unsubscribe:",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "7. Cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We use “cookies” to collect information about you and your activity across our site. A cookie is a small piece of data that our website stores on your computer, and accesses each time you visit, so we can understand how you use our site. This helps us serve you content based on preferences you have specified. Please refer to our Cookie Policy for more information.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "8. Business transfers",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "If we or our assets are acquired, or in the unlikely event that we go out of business or enter bankruptcy, we would include data among the assets transferred to any parties who acquire us. You acknowledge that such transfers may occur, and that any parties who acquire us may continue to use your personal information according to this policy.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "9. Limits of our policy",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and policies of those sites, and cannot accept responsibility or liability for their respective privacy practices.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "10. Changes to this policy",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "At our discretion, we may change our privacy policy to reflect current acceptable practices. We will take reasonable steps to let users know about changes via our website. Your continued use of this site after any changes to this policy will be regarded as acceptance of our practices around privacy and personal information.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "If we make a significant change to this privacy policy, for example changing a lawful basis on which we process your personal information, we will ask you to re-consent to the amended privacy policy.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "developer.school Data Controller",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "br",
+                                  "attributes": {},
+                                  "content": null,
+                                  "child": []
+                                },
+                                {
+                                  "tag": "br",
+                                  "attributes": {},
+                                  "content": null,
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "strong",
+                                  "attributes": {},
+                                  "content": "developer.school Data Protection Officer",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "br",
+                                  "attributes": {},
+                                  "content": null,
+                                  "child": []
+                                },
+                                {
+                                  "tag": "br",
+                                  "attributes": {},
+                                  "content": null,
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "This policy is effective as of 1 March 2019.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h2",
+                              "attributes": {},
+                              "content": "Terms of Service",
+                              "child": []
+                            },
+                            {
+                              "tag": "h2",
+                              "attributes": {},
+                              "content": "developer.school Terms of Service",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "1. Terms",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://developer.school"
+                                  },
+                                  "content": "https://developer.school",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "2. Use License",
+                              "child": []
+                            },
+                            {
+                              "tag": "ol",
+                              "attributes": {
+                                "type": "a"
+                              },
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "child": [
+                                    {
+                                      "tag": "ol",
+                                      "attributes": {
+                                        "type": "i"
+                                      },
+                                      "child": [
+                                        {
+                                          "tag": "li",
+                                          "attributes": {},
+                                          "content": "modify or copy the materials;",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {},
+                                          "content": "use the materials for any commercial purpose, or for any public display (commercial or non-commercial);",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {},
+                                          "content": "attempt to decompile or reverse engineer any software contained on developer.school",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {},
+                                          "content": "remove any copyright or other proprietary notations from the materials; or",
+                                          "child": []
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {},
+                                          "content": "transfer the materials to another person or ",
+                                          "child": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "This license shall automatically terminate if you violate any of these restrictions and may be terminated by developer.school at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "3. Disclaimer",
+                              "child": []
+                            },
+                            {
+                              "tag": "ol",
+                              "attributes": {
+                                "type": "a"
+                              },
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "The materials on developer.school",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {},
+                                  "content": "Further, developer.school does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "4. Limitations",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "In no event shall developer.school or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on developer.school",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "5. Accuracy of materials",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "The materials appearing on developer.school",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "6. Links",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "developer.school has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by developer.school of the site. Use of any such linked website is at the user",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "7. Modifications",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "developer.school may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "8. Governing Law",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "These terms and conditions are governed by and construed in accordance with the laws of United Kingdom and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h2",
+                              "attributes": {},
+                              "content": "Cookie Policy",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://developer.school"
+                                  },
+                                  "content": "https://developer.school",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://developer.school"
+                                  },
+                                  "content": "https://developer.school",
+                                  "child": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "What is a cookie?",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "A cookie is a small piece of data that a website stores on your device when you visit, typically containing information about the website itself, a unique identifier that allows the site to recognise your web browser when you return, additional data that serves the purpose of the cookie, and the lifespan of the cookie itself.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Cookies are used to enable certain features (eg. logging in), to track site usage (eg. analytics), to store your user settings (eg. timezone, notification preferences), and to personalise your content (eg. advertising, language).",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Cookies set by the website you are visiting are normally referred to as “first-party cookies”, and typically only track your activity on that particular site. Cookies set by other sites and companies (ie. third parties) are called “third-party cookies”, and can be used to track you on other websites that use the same third-party service.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "Types of cookies and how we use them",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Essential cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Essential cookies are crucial to your experience of a website, enabling core features like user logins, account management, shopping carts and payment processing. We use essential cookies to enable certain functions on our website.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Performance cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Performance cookies are used in the tracking of how you use a website during your visit, without collecting personal information about you. Typically, this information is anonymous and aggregated with information tracked across all site users, to help companies understand visitor usage patterns, identify and diagnose problems or errors their users may encounter, and make better strategic decisions in improving their audience’s overall website experience. These cookies may be set by the website you’re visiting (first-party) or by third-party services. We use performance cookies on our site.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Functionality cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Functionality cookies are used in collecting information about your device and any settings you may configure on the website you’re visiting (like language and timezone settings). With this information, websites can provide you with customised, enhanced or optimised content and services. These cookies may be set by the website you’re visiting (first-party) or by third-party service. We use functionality cookies for selected features on our site.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Targeting/advertising cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Targeting/advertising cookies are used in determining what promotional content is more relevant and appropriate to you and your interests. Websites may use them to deliver targeted advertising or to limit the number of times you see an advertisement. This helps companies improve the effectiveness of their campaigns and the quality of content presented to you. These cookies may be set by the website you’re visiting (first-party) or by third-party services. Targeting/advertising cookies set by third-parties may be used to track you on other websites that use the same third-party service. We use targeting/advertising cookies on our site.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "Third-party cookies on our site",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We may employ third-party companies and individuals on our websites—for example, analytics providers and content partners. We grant these third parties access to selected information to perform specific tasks on our behalf. They may also set third-party cookies in order to deliver the services they are providing. Third-party cookies can be used to track you on other websites that use the same third-party service. As we have no control over third-party cookies, they are not covered by developer.school",
+                              "child": []
+                            },
+                            {
+                              "tag": "h4",
+                              "attributes": {},
+                              "content": "Our third-party privacy promise",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "We review the privacy policies of all our third-party providers before enlisting their services to ensure their practices align with ours. We will never knowingly include third-party services that compromise or violate the privacy of our users.",
+                              "child": []
+                            },
+                            {
+                              "tag": "h3",
+                              "attributes": {},
+                              "content": "How you can control or opt out of cookies",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "If you do not wish to accept cookies from us, you can instruct your browser to refuse cookies from our website. Most browsers are configured to accept cookies by default, but you can update these settings to either refuse cookies altogether, or to notify you when a website is trying to set or update a cookie.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "If you browse websites from multiple devices, you may need to update your settings on each individual device.",
+                              "child": []
+                            },
+                            {
+                              "tag": "p",
+                              "attributes": {},
+                              "content": "Although some cookies can be blocked with little impact on your experience of a website, blocking all cookies may mean you are unable to access certain features and content across the sites you visit.",
+                              "child": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "footer",
+                          "attributes": {
+                            "class": "sc-kGXeez hMxXPX"
+                          },
+                          "child": [
+                            {
+                              "tag": "ul",
+                              "attributes": {
+                                "class": "sc-dxgOiQ hBUsJT"
+                              },
+                              "child": [
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/sponsorship"
+                                      },
+                                      "content": "Sponsorship |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "https://youtube.com/c/PaulHalliday"
+                                      },
+                                      "content": "YouTube |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "https://twitter.com/paulhalliday_io"
+                                      },
+                                      "content": "Twitter |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/tags"
+                                      },
+                                      "content": "Tags |",
+                                      "child": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "attributes": {
+                                    "class": "sc-kpOJdX jbyZIk"
+                                  },
+                                  "child": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "href": "/privacy"
+                                      },
+                                      "content": "Privacy and Terms",
+                                      "child": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {},
+                              "child": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "role": "img",
+                                    "aria-label": "heart"
+                                  },
+                                  "content": "💜",
+                                  "child": []
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "https://youtube.com/c/PaulHalliday"
+                                  },
+                                  "content": "Paul Halliday",
+                                  "child": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

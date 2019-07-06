@@ -1,0 +1,204 @@
+{
+  "tag": "html",
+  "attributes": {
+    "lang": "en"
+  },
+  "child": [
+    {
+      "tag": "head",
+      "attributes": {},
+      "child": [
+        {
+          "tag": "meta",
+          "attributes": {
+            "charset": "UTF-8"
+          },
+          "content": null,
+          "child": []
+        },
+        {
+          "tag": "title",
+          "attributes": {},
+          "content": "Hello World",
+          "child": []
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "attributes": {
+        "class": "body-color"
+      },
+      "child": [
+        {
+          "tag": "nav",
+          "attributes": {},
+          "child": [
+            {
+              "tag": "ul",
+              "attributes": {},
+              "child": [
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page1.html"
+                      },
+                      "content": "Page 1",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page2.html"
+                      },
+                      "content": "Page 2",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page3.html"
+                      },
+                      "content": "Page 3",
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {},
+                  "child": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "/page4.html"
+                      },
+                      "content": "Page 4",
+                      "child": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "attributes": {
+            "class": "main"
+          },
+          "child": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": "row"
+              },
+              "child": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": "col"
+                  },
+                  "child": [
+                    {
+                      "tag": "h1",
+                      "attributes": {
+                        "class": "red full-width"
+                      },
+                      "content": "Hello",
+                      "child": []
+                    },
+                    {
+                      "tag": "h3",
+                      "attributes": {
+                        "class": "blue full-width"
+                      },
+                      "content": "World",
+                      "child": []
+                    },
+                    {
+                      "tag": "p",
+                      "attributes": {},
+                      "child": [
+                        {
+                          "tag": "img",
+                          "attributes": {
+                            "src": "https://fakeimg.pl/300/",
+                            "alt": "Some image"
+                          },
+                          "content": null,
+                          "child": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "container"
+          },
+          "child": [
+            {
+              "tag": "p",
+              "attributes": {},
+              "content": "This is some more dummy text",
+              "child": []
+            },
+            {
+              "tag": "h4",
+              "attributes": {},
+              "content": "\n        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat vitae\n        dolor, atque, excepturi numquam cumque ut iusto, odio perferendis cum\n        rem saepe eveniet voluptatum fuga debitis et illo distinctio eligendi!\n      ",
+              "child": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "div_content"
+          },
+          "content": "\n      Hi there, this is empty div with no children :(\n    ",
+          "child": []
+        },
+        {
+          "tag": "section",
+          "attributes": {
+            "class": "different"
+          },
+          "child": [
+            {
+              "tag": "p",
+              "attributes": {
+                "id": "p-id",
+                "data-attr": "custom-attribute"
+              },
+              "content": "Different section",
+              "child": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

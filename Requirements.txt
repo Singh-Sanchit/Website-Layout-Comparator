@@ -1,0 +1,16 @@
+1. BFS Repeat Tags - Done
+2. Unique Tags With Unique Parents - Done
+3. Dissimilar Tags For Individuals Pages - Done
+4. Percentage - Done
+5. HTML Layout: Bootstrap - Done
+6. Input Web Domain, Level, No Of Pages -->> Display  - Done
+7. Filter Open On Percentage - Done
+8. Table - Pages Name, Similar Tags, Percentages, Dissimilar Tags For Page1, Dissimilar Tags For Page2, View Tree - Done
+9. Tree Display, Highlighting.
+Constraints -
+	1. Display Entire HTML Tree
+	2. Highlight all tags with same level as that of unique similar tag with same parent for both pages.
+	3. Use dissimilar tags of each pages to highlight dissimilar elements on individual pages.
+	4. Leave space for page with less tags on same level.
+	
+cmd = python main.py -url=www.google.com -l=5 -max=100

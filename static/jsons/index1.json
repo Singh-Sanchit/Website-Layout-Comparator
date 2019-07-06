@@ -1,0 +1,127 @@
+{
+    "tag": "html",
+    "attributes": {
+        "lang": "en"
+    },
+    "child": [
+        {
+            "tag": "head",
+            "attributes": {},
+            "child": [
+                 
+                {
+                    "tag": "title",
+                    "attributes": {},
+                    "content": "Hello World",
+                    "child": []
+                },
+                {
+                    "tag": "title",
+                    "attributes": {},
+                    "content": "Hello World",
+                    "child": []
+                }
+            ]
+        },
+        {
+            "tag": "body",
+            "attributes": {
+                "class": "body-color"
+            },
+            "child": [
+                {
+                    "tag": "section",
+                    "attributes": {
+                        "class": "main"
+                    },
+                    "child": [
+                        {
+                            "tag": "h1",
+                            "attributes": {
+                                "class": "red full-width"
+                            },
+                            "content": "Hello",
+                            "child": []
+                        },
+                        {
+                            "tag": "h3",
+                            "attributes": {
+                                "class": "blue full-width"
+                            },
+                            "content": "World",
+                            "child": []
+                        },
+                        {
+                            "tag": "p",
+                            "attributes": {},
+                            "child": [
+                                {
+                                    "tag": "span",
+                                    "attributes": {
+                                        "class": "sexy-span"
+                                    },
+                                    "content": "This is a span inside this p. I dont know why but aise he sexy lag rha tha",
+                                    "child": []
+                                },
+                                {
+                                    "tag": "img",
+                                    "attributes": {
+                                        "src": "http://someimg.com",
+                                        "alt": "kyuki bht kand h"
+                                    },
+                                    "content": null,
+                                    "child": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tag": "main",
+                    "attributes": {
+                        "class": "container"
+                    },
+                    "child": [
+                        {
+                            "tag": "p",
+                            "attributes": {},
+                            "content": "This is some more dummy text",
+                            "child": []
+                        },
+                        {
+                            "tag": "h4",
+                            "attributes": {},
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat vitae dolor, atque, excepturi numquam cumque ut iusto, odio perferendis cum rem saepe eveniet voluptatum fuga debitis et illo distinctio eligendi!",
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "class": "div_content"
+                    },
+                    "content": null,
+                    "child": []
+                },
+                {
+                    "tag": "section",
+                    "attributes": {
+                        "class": "different"
+                    },
+                    "child": [
+                        {
+                            "tag": "p",
+                            "attributes": {
+                                "id": "p-id",
+                                "data-attr": "custom-attribute"
+                            },
+                            "content": "Different section",
+                            "child": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

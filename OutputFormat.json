@@ -1,0 +1,266 @@
+[
+  {
+    "pages": "index1 and index2",
+    "similarHierarchies": [
+      { "parent": ["body", "section", "p"], "child": "span" },
+      { "parent": ["body", "section", "p"], "child": "img" }
+    ],
+    "dissimilarTags": [
+      { "name": "index1", "tags": [] },
+      { "name": "index2", "tags": [] }
+    ],
+    "percentageSimilarity": 100
+  },
+  {
+    "pages": "index1 and page1",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index1",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page1",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "section", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index1 and page2",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index1",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page2",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "section", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index1 and page3",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index1",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page3",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "div", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index1 and page4",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index1",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page4",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "div", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index2 and page1",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index2",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page1",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "section", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index2 and page2",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index2",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page2",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "section", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index2 and page3",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index2",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page3",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "div", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "index2 and page4",
+    "similarHierarchies": [],
+    "dissimilarTags": [
+      {
+        "name": "index2",
+        "tags": [
+          { "parent": ["body", "section", "p"], "child": "span" },
+          { "parent": ["body", "section", "p"], "child": "img" }
+        ]
+      },
+      {
+        "name": "page4",
+        "tags": [
+          { "parent": ["body", "nav", "ul"], "child": "li" },
+          { "parent": ["body", "div", "div"], "child": "div" }
+        ]
+      }
+    ],
+    "percentageSimilarity": 0.0
+  },
+  {
+    "pages": "page1 and page2",
+    "similarHierarchies": [
+      { "parent": ["body", "nav", "ul"], "child": "li" },
+      { "parent": ["body", "section", "div"], "child": "div" }
+    ],
+    "dissimilarTags": [
+      { "name": "page1", "tags": [] },
+      { "name": "page2", "tags": [] }
+    ],
+    "percentageSimilarity": 100
+  },
+  {
+    "pages": "page1 and page3",
+    "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
+    "dissimilarTags": [
+      {
+        "name": "page1",
+        "tags": [{ "parent": ["body", "section", "div"], "child": "div" }]
+      },
+      {
+        "name": "page3",
+        "tags": [{ "parent": ["body", "div", "div"], "child": "div" }]
+      }
+    ],
+    "percentageSimilarity": 50.0
+  },
+  {
+    "pages": "page1 and page4",
+    "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
+    "dissimilarTags": [
+      {
+        "name": "page1",
+        "tags": [{ "parent": ["body", "section", "div"], "child": "div" }]
+      },
+      {
+        "name": "page4",
+        "tags": [{ "parent": ["body", "div", "div"], "child": "div" }]
+      }
+    ],
+    "percentageSimilarity": 50.0
+  },
+  {
+    "pages": "page2 and page3",
+    "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
+    "dissimilarTags": [
+      {
+        "name": "page2",
+        "tags": [{ "parent": ["body", "section", "div"], "child": "div" }]
+      },
+      {
+        "name": "page3",
+        "tags": [{ "parent": ["body", "div", "div"], "child": "div" }]
+      }
+    ],
+    "percentageSimilarity": 50.0
+  },
+  {
+    "pages": "page2 and page4",
+    "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
+    "dissimilarTags": [
+      {
+        "name": "page2",
+        "tags": [{ "parent": ["body", "section", "div"], "child": "div" }]
+      },
+      {
+        "name": "page4",
+        "tags": [{ "parent": ["body", "div", "div"], "child": "div" }]
+      }
+    ],
+    "percentageSimilarity": 50.0
+  },
+  {
+    "pages": "page3 and page4",
+    "similarHierarchies": [
+      { "parent": ["body", "nav", "ul"], "child": "li" },
+      { "parent": ["body", "div", "div"], "child": "div" }
+    ],
+    "dissimilarTags": [
+      { "name": "page3", "tags": [] },
+      { "name": "page4", "tags": [] }
+    ],
+    "percentageSimilarity": 100
+  }
+]
