@@ -1,14 +1,12 @@
 import json
+import os
 import glob
 from flask import Flask, render_template, request
 import webbrowser
 import argparse
+from layout.extractor import worker
 
 app = Flask(__name__)
-# configuring folder path for loading all json
-path = 'static/milk.com/*.json'
-# fetching the file names of all json present in the folder
-files = glob.glob(path)
 output = []  # final output
 outputForTree = []
 hierachies = []  # storing temporary hierachies of pages
@@ -22,6 +20,11 @@ ap.add_argument('-l', '--level', required=True,
 ap.add_argument('-m', '--max', required=False,
                 help='maximum number of pages to scrap')
 args = ap.parse_args()
+directory_path = worker(args.url, int(args.max))
+# configuring folder path for loading all json
+path = f'{directory_path}*.json'
+# fetching the file names of all json present in the folder
+files = glob.glob(path)
 
 
 # recursive function to extract tags from each json, do not alter as it uses global variable
@@ -64,13 +67,21 @@ def compareLayout(file1, file2, data1, data2):
     except:
         percentageSimilarity = 100
     # appending every object to final output
-    output.append({"pages": file1.split('\\')[1].split('.')[
-                  0] + " and " + file2.split('\\')[1].split('.')[0], "similarHierarchies": similarTags, "dissimilarTags": [
-        {"name": file1.split('\\')[1].split('.')[
-            0], "tags": dissimilarTagsForData1},
-        {"name": file2.split('\\')[1].split(
-            '.')[0], "tags": dissimilarTagsForData2}
-    ], "percentageSimilarity": percentageSimilarity})
+    output.append({
+        "pages": file1 + " <-> " + file2,
+        "similarHierarchies": similarTags,
+        "dissimilarTags": [
+            {
+                "name": file1,
+                "tags": dissimilarTagsForData1
+            },
+            {
+                "name": file2,
+                "tags": dissimilarTagsForData2
+            }
+        ],
+        "percentageSimilarity": percentageSimilarity
+    })
 
 
 # extracting each page and comparing it with all other pages.
@@ -86,7 +97,8 @@ def startWorker(level):
                 extractGivenLevelTags(json.load(read_file), level-1)
             second_data = hierachies[:]
             hierachies.clear()
-            compareLayout(files[i], files[j], first_data, second_data)
+            compareLayout(os.path.splitext(os.path.basename(files[i]))[0], os.path.splitext(
+                os.path.basename(files[j]))[0], first_data, second_data)
     return output
 
 
@@ -123,12 +135,12 @@ def showTree(pageName):
                     res.append(v)
         return res
     for file in files:
-        if file.split('\\')[1].split('.')[0] == page1:
+        if os.path.splitext(os.path.basename(file))[0] == page1:
             with open(file, "r", encoding="utf8") as read_file:
                 hierachies.clear()
                 extractGivenLevelTags(json.load(read_file), int(args.level)-1)
                 page1TreeTemp = hierachies[:]
-        if file.split('\\')[1].split('.')[0] == page2:
+        if os.path.splitext(os.path.basename(file))[0] == page2:
             with open(file, "r", encoding="utf8") as read_file:
                 hierachies.clear()
                 extractGivenLevelTags(json.load(read_file), int(args.level)-1)
@@ -142,9 +154,9 @@ def showTree(pageName):
     page1List = dictToList(page1Dict)
     page2List = dictToList(page2Dict)
     listData = [page1List, page2List]
-    return render_template('testtree.html', url=args.url, level=args.level, maxpages=args.max, pageName=pageName, data=json.dumps(listData))
+    return render_template('testtree.html', url=args.url, level=args.level, maxpages=args.max, pageName=pageName.replace('@', '/'), data=json.dumps(listData))
 
 
 if __name__ == '__main__':
     webbrowser.open('http://127.0.0.1:5000/')
-    app.run(debug=True)
+    app.run()

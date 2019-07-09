@@ -1,6 +1,6 @@
 [
   {
-    "pages": "index1 and index2",
+    "pages": "index1 <-> index2",
     "similarHierarchies": [
       { "parent": ["body", "section", "p"], "child": "span" },
       { "parent": ["body", "section", "p"], "child": "img" }
@@ -12,7 +12,7 @@
     "percentageSimilarity": 100
   },
   {
-    "pages": "index1 and page1",
+    "pages": "index1 <-> page1",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -33,7 +33,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index1 and page2",
+    "pages": "index1 <-> page2",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -54,7 +54,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index1 and page3",
+    "pages": "index1 <-> page3",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -75,7 +75,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index1 and page4",
+    "pages": "index1 <-> page4",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -96,7 +96,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index2 and page1",
+    "pages": "index2 <-> page1",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -117,7 +117,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index2 and page2",
+    "pages": "index2 <-> page2",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -138,7 +138,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index2 and page3",
+    "pages": "index2 <-> page3",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -159,7 +159,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "index2 and page4",
+    "pages": "index2 <-> page4",
     "similarHierarchies": [],
     "dissimilarTags": [
       {
@@ -180,7 +180,7 @@
     "percentageSimilarity": 0.0
   },
   {
-    "pages": "page1 and page2",
+    "pages": "page1 <-> page2",
     "similarHierarchies": [
       { "parent": ["body", "nav", "ul"], "child": "li" },
       { "parent": ["body", "section", "div"], "child": "div" }
@@ -192,7 +192,7 @@
     "percentageSimilarity": 100
   },
   {
-    "pages": "page1 and page3",
+    "pages": "page1 <-> page3",
     "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
     "dissimilarTags": [
       {
@@ -207,7 +207,7 @@
     "percentageSimilarity": 50.0
   },
   {
-    "pages": "page1 and page4",
+    "pages": "page1 <-> page4",
     "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
     "dissimilarTags": [
       {
@@ -222,7 +222,7 @@
     "percentageSimilarity": 50.0
   },
   {
-    "pages": "page2 and page3",
+    "pages": "page2 <-> page3",
     "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
     "dissimilarTags": [
       {
@@ -237,7 +237,7 @@
     "percentageSimilarity": 50.0
   },
   {
-    "pages": "page2 and page4",
+    "pages": "page2 <-> page4",
     "similarHierarchies": [{ "parent": ["body", "nav", "ul"], "child": "li" }],
     "dissimilarTags": [
       {
@@ -252,7 +252,7 @@
     "percentageSimilarity": 50.0
   },
   {
-    "pages": "page3 and page4",
+    "pages": "page3 <-> page4",
     "similarHierarchies": [
       { "parent": ["body", "nav", "ul"], "child": "li" },
       { "parent": ["body", "div", "div"], "child": "div" }
